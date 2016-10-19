@@ -1,0 +1,13 @@
+#column 1 dB_loss
+#column 2 length_meters
+#column 3 speed_mbps
+#
+# Data is a simple straight line.
+# 100mbit is the original NBN suggested "high" speed
+# 6km is a number that is approx as long as the longest *DSL line
+# (GPON should reach 20km, depending on exact splitter setup)
+#
+
+\N      0       100
+\N      6000    100
+
