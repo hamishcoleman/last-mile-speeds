@@ -1,0 +1,6 @@
+Lots of people talk about DSL speeds.  Some sources have graphs of
+distance vs estimated speeds.  I want to add things like vDSL and G.Fast
+estimates and compare them.
+
+This repository is a place to collect space-separated files that can
+be plotted with gnuplot to show these estimates.
