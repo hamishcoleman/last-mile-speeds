@@ -13,7 +13,9 @@
         set grid xtics
         set autoscale fix
 
-        set key left top Left title 'Legend' box 3
+        set key right center Left title 'Legend' box 3
+
+set yrange [0 to 110]
 
 set style data lines
 
