@@ -1,6 +1,14 @@
 # Example gnuplot file to plot this data
 #
 
+# To generate a pdf:
+#set terminal pdf size 11,8
+#set output 'internet-speeds.pdf'
+
+# To generate svg:
+#set terminal svg
+#set output 'internet-speeds.svg'
+
         set title 'Distance vs speed for each Last-Mile technology'
         set xlabel 'Meters from Node'
         set ylabel 'Megabit/s'
