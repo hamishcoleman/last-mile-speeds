@@ -6,7 +6,7 @@
 #set output 'internet-speeds.pdf'
 
 # To generate svg:
-#set terminal svg size 800,600 enhanced background rgb 'white'
+#set terminal svg size 960,600 enhanced background rgb 'white'
 #set output 'internet-speeds.svg'
 
         set title 'Distance vs speed for each Last-Mile technology'
@@ -22,6 +22,7 @@
 
         set key right center Left title 'Legend' box 3
 
+set xrange [0 to 3500]
 set yrange [0 to 110]
 
 set style data lines
