@@ -33,7 +33,13 @@ plot \
 'adsl2.3' using 2:3  title 'adsl2',\
 'adsl2+.2' using 2:3  title 'adsl2+ (DSL)',\
 'vdsl2.5' using 2:3  title 'vdsl2 (FTTN, FTTdp)',\
-'gfast.9' using 2:3  title 'gfast',\
-'gfast.10' using 2:3  title 'gfast vectored'
+'vdsl2.11' using 2:3  title 'vdsl2 17a vectored',\
+'vdsl2.12' using 2:3  title 'vdsl2 35b super vectored',\
+'gfast.14' using 2:3  title 'G.Fast A2 co-existing with VDSL2'
+
+#'gfast.9' using 2:3  title 'G.Fast',\
+#'gfast.10' using 2:3  title 'G.Fast vectored',\
+#'gfast.13' using 2:3  title 'G.Fast A1 co-existing with VDSL2',\
+
 pause mouse close
 
