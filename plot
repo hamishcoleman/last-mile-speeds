@@ -6,7 +6,7 @@
 #set output 'internet-speeds.pdf'
 
 # To generate svg:
-#set terminal svg
+#set terminal svg size 800,600 enhanced background rgb 'white'
 #set output 'internet-speeds.svg'
 
         set title 'Distance vs speed for each Last-Mile technology'
