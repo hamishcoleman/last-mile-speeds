@@ -18,11 +18,12 @@
 set style data lines
 
 plot \
-'gpon.0' using 2:3  title 'speed_mbps=gpon.0:3',\
-'adsl1.2' using 2:3  title 'speed_mbps=adsl1.2:3',\
-'adsl2.3' using 2:3  title 'speed_mbps=adsl2.3:3',\
-'adsl2+.2' using 2:3  title 'speed_mbps=adsl2+.2:3',\
-'vdsl2.5' using 2:3  title 'speed_mbps=vdsl2.5:3',\
-'vdsl2.7' using 2:3  title 'speed_mbps=vdsl2.7:3'
+'gpon.0' using 2:3  title 'gpon',\
+'adsl1.2' using 2:3  title 'adsl1',\
+'adsl2.3' using 2:3  title 'adsl2',\
+'adsl2+.2' using 2:3  title 'adsl2+',\
+'vdsl2.5' using 2:3  title 'vdsl2',\
+'gfast.9' using 2:3  title 'gfast',\
+'gfast.10' using 2:3  title 'gfast vectored'
 pause mouse close
 
