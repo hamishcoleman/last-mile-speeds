@@ -15,7 +15,7 @@
 
         #set xtics out rotate by -15 86400
         set xtics out rotate by -15
-        set mouse clipboardformat 5
+        set mouse mouseformat "%5.0f meters, %5.0f megabits"
         set grid ytics mytics lw 2, lw 1
         set grid xtics
         set autoscale fix
